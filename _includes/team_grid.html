@@ -1,0 +1,26 @@
+
+    <!-- Team Grid Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Team</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                {% for post in site.posts %}
+                    <div class="col-sm-4 team-item">
+                        <a href="#teamModal-{{ post.modal-id }}" class="team-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/team/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
