@@ -31,7 +31,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Softus Inc., 2016
+  copyright: Softus Inc.
   location: Location
   social: Around the Web
 #  credits: Credits
@@ -43,7 +43,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/softus.org
   - title: github
-    url: http://github.com/softus
+    url: https://github.com/softus
   - title: linkedin
     url: https://www.linkedin.com/company/softus-inc.
   - title: vk
